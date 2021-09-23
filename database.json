@@ -3,95 +3,350 @@
     {
       "id": 1,
       "name": "Tom Swiss",
-      "email": "cheesemonger@queso4ever.com"
+      "email": "cheesemonger@queso4ever.com",
+      "imageId": 6
     },
     {
       "email": "farrah@cheeseluver.com",
       "name": "Farrah Fondue",
-      "id": 2
+      "id": 2,
+      "imageId": 6
+    },
+    {
+      "email": "patty@pizzapalace.com",
+      "name": "Patty Pepperoni",
+      "id": 3,
+      "imageId": 6
+    },
+    {
+      "email": "jeremy@jamminjeremy.com",
+      "name": "Jeremy Jam",
+      "id": 4,
+      "imageId": 6
+    },
+    {
+      "email": "sam@slamminsam.com",
+      "name": "Sam Salami",
+      "id": 5,
+      "imageId": 6
+    },
+    {
+      "email": "walter@wheresmywalnut.net",
+      "name": "Walter Walnut",
+      "id": 6,
+      "imageId": 6
+    },
+    {
+      "email": "alma@alwaysalmonds.org",
+      "name": "Alma Almond",
+      "id": 7,
+      "imageId": 6
+    },
+    {
+      "email": "peter@pearypeter.com",
+      "name": "Peter Pear",
+      "id": 8,
+      "imageId": 6
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "currentUserId": 2,
+      "userId": 1
+    },
+    {
+      "userId": 6,
+      "currentUserId": 2,
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "currentUserId": 2,
+      "id": 12
+    },
+    {
+      "userId": 7,
+      "currentUserId": 2,
+      "id": 13
+    },
+    {
+      "userId": 3,
+      "currentUserId": 2,
+      "id": 14
     }
   ],
   "boards": [
     {
-      "id": 1,
+      "title": "Name of Board",
       "userId": 2,
-      "title": "Name of Board",
-      "imageId": 7
+      "imageId": 4,
+      "id": 1
     },
     {
-      "id": 2,
+      "title": "Name of Board",
       "userId": 2,
-      "title": "Name of Board",
-      "imageId": 7
+      "imageId": 4,
+      "id": 2
     },
     {
-      "id": 3,
-      "userId": 1,
       "title": "Name of Board",
-      "imageId": 7
+      "userId": 2,
+      "imageId": 4,
+      "id": 3
     },
     {
-      "id": 4,
-      "userId": 1,
-      "title": "Name of Board",
-      "imageId": 7
+      "title": "Patty's Palette",
+      "userId": 3,
+      "imageId": 4,
+      "id": 4
     }
   ],
   "boardIngredients": [
     {
-      "id": 1,
+      "ingredientId": 1,
       "boardId": 1,
-      "ingredientId": 1
+      "id": 1
     },
     {
-      "id": 2,
+      "ingredientId": 8,
       "boardId": 1,
-      "ingredientId": 23
+      "id": 2
     },
     {
-      "id": 3,
+      "ingredientId": 4,
       "boardId": 1,
-      "ingredientId": 28
+      "id": 3
     },
     {
-      "id": 4,
+      "ingredientId": 5,
       "boardId": 1,
-      "ingredientId": 44
+      "id": 4
     },
     {
-      "id": 5,
+      "ingredientId": 20,
       "boardId": 1,
-      "ingredientId": 62
+      "id": 5
     },
     {
-      "id": 6,
-      "boardId": 2,
-      "ingredientId": 2
+      "ingredientId": 29,
+      "boardId": 1,
+      "id": 6
     },
     {
-      "id": 7,
-      "boardId": 2,
-      "ingredientId": 7
+      "ingredientId": 31,
+      "boardId": 1,
+      "id": 7
     },
     {
-      "id": 8,
-      "boardId": 2,
-      "ingredientId": 9
+      "ingredientId": 23,
+      "boardId": 1,
+      "id": 8
     },
     {
-      "id": 9,
-      "boardId": 2,
-      "ingredientId": 15
+      "ingredientId": 21,
+      "boardId": 1,
+      "id": 9
     },
     {
-      "id": 10,
-      "boardId": 2,
-      "ingredientId": 28
+      "ingredientId": 34,
+      "boardId": 1,
+      "id": 10
     },
     {
-      "id": 11,
+      "ingredientId": 43,
+      "boardId": 1,
+      "id": 11
+    },
+    {
+      "ingredientId": 46,
+      "boardId": 1,
+      "id": 12
+    },
+    {
+      "ingredientId": 48,
+      "boardId": 1,
+      "id": 13
+    },
+    {
+      "ingredientId": 60,
+      "boardId": 1,
+      "id": 14
+    },
+    {
+      "ingredientId": 65,
+      "boardId": 1,
+      "id": 15
+    },
+    {
+      "ingredientId": 3,
       "boardId": 2,
-      "ingredientId": 32
+      "id": 16
+    },
+    {
+      "ingredientId": 10,
+      "boardId": 2,
+      "id": 17
+    },
+    {
+      "ingredientId": 6,
+      "boardId": 2,
+      "id": 18
+    },
+    {
+      "ingredientId": 23,
+      "boardId": 2,
+      "id": 19
+    },
+    {
+      "ingredientId": 27,
+      "boardId": 2,
+      "id": 20
+    },
+    {
+      "ingredientId": 24,
+      "boardId": 2,
+      "id": 21
+    },
+    {
+      "ingredientId": 21,
+      "boardId": 2,
+      "id": 22
+    },
+    {
+      "ingredientId": 30,
+      "boardId": 2,
+      "id": 23
+    },
+    {
+      "ingredientId": 31,
+      "boardId": 2,
+      "id": 24
+    },
+    {
+      "ingredientId": 37,
+      "boardId": 2,
+      "id": 25
+    },
+    {
+      "ingredientId": 45,
+      "boardId": 2,
+      "id": 26
+    },
+    {
+      "ingredientId": 51,
+      "boardId": 2,
+      "id": 27
+    },
+    {
+      "ingredientId": 54,
+      "boardId": 2,
+      "id": 28
+    },
+    {
+      "ingredientId": 64,
+      "boardId": 2,
+      "id": 29
+    },
+    {
+      "ingredientId": 61,
+      "boardId": 2,
+      "id": 30
+    },
+    {
+      "ingredientId": 3,
+      "boardId": 3,
+      "id": 31
+    },
+    {
+      "ingredientId": 11,
+      "boardId": 3,
+      "id": 32
+    },
+    {
+      "ingredientId": 14,
+      "boardId": 3,
+      "id": 33
+    },
+    {
+      "ingredientId": 16,
+      "boardId": 3,
+      "id": 34
+    },
+    {
+      "ingredientId": 21,
+      "boardId": 3,
+      "id": 35
+    },
+    {
+      "ingredientId": 20,
+      "boardId": 3,
+      "id": 36
+    },
+    {
+      "ingredientId": 24,
+      "boardId": 3,
+      "id": 37
+    },
+    {
+      "ingredientId": 29,
+      "boardId": 3,
+      "id": 38
+    },
+    {
+      "ingredientId": 34,
+      "boardId": 3,
+      "id": 39
+    },
+    {
+      "ingredientId": 2,
+      "boardId": 4,
+      "id": 40
+    },
+    {
+      "ingredientId": 41,
+      "boardId": 4,
+      "id": 41
+    },
+    {
+      "ingredientId": 58,
+      "boardId": 4,
+      "id": 42
+    },
+    {
+      "ingredientId": 3,
+      "boardId": 4,
+      "id": 43
+    },
+    {
+      "ingredientId": 20,
+      "boardId": 4,
+      "id": 44
+    },
+    {
+      "ingredientId": 59,
+      "boardId": 4,
+      "id": 45
+    },
+    {
+      "ingredientId": 21,
+      "boardId": 4,
+      "id": 46
+    },
+    {
+      "ingredientId": 29,
+      "boardId": 4,
+      "id": 47
+    },
+    {
+      "ingredientId": 30,
+      "boardId": 4,
+      "id": 48
+    },
+    {
+      "ingredientId": 42,
+      "boardId": 4,
+      "id": 49
     }
   ],
   "ingredients": [
@@ -100,21 +355,21 @@
       "type": "cheese",
       "name": "Cheddar",
       "description": "",
-      "imageId": 3
+      "imageId": 6
     },
     {
       "id": 2,
       "type": "cheese",
       "name": "White Cheddar",
       "description": "",
-      "imageId": 4
+      "imageId": 6
     },
     {
       "id": 3,
       "type": "cheese",
       "name": "Gouda",
       "description": "",
-      "imageId": 5
+      "imageId": 6
     },
     {
       "id": 4,
@@ -128,7 +383,7 @@
       "type": "cheese",
       "name": "Brie",
       "description": "",
-      "imageId": 7
+      "imageId": 6
     },
     {
       "id": 6,
@@ -142,28 +397,28 @@
       "type": "cheese",
       "name": "Buffalo Mozzerella",
       "description": "",
-      "imageId": 3
+      "imageId": 6
     },
     {
       "id": 8,
       "type": "cheese",
       "name": "Goat",
       "description": "",
-      "imageId": 5
+      "imageId": 6
     },
     {
       "id": 9,
       "type": "cheese",
       "name": "Feta",
       "description": "",
-      "imageId": 5
+      "imageId": 6
     },
     {
       "id": 10,
       "type": "cheese",
       "name": "Parmesan",
       "description": "",
-      "imageId": 7
+      "imageId": 6
     },
     {
       "id": 11,
@@ -177,35 +432,35 @@
       "type": "cheese",
       "name": "Romano",
       "description": "",
-      "imageId": 4
+      "imageId": 6
     },
     {
       "id": 13,
       "type": "cheese",
       "name": "Gruyere",
       "description": "",
-      "imageId": 4
+      "imageId": 6
     },
     {
       "id": 14,
       "type": "cheese",
       "name": "Gorgonzola",
       "description": "",
-      "imageId": 3
+      "imageId": 6
     },
     {
       "id": 15,
       "type": "cheese",
       "name": "Blue",
       "description": "",
-      "imageId": 5
+      "imageId": 6
     },
     {
       "id": 16,
       "type": "cheese",
       "name": "Colby Jack",
       "description": "",
-      "imageId": 7
+      "imageId": 6
     },
     {
       "id": 17,
@@ -219,14 +474,14 @@
       "type": "cheese",
       "name": "Pepperjack",
       "description": "",
-      "imageId": 7
+      "imageId": 6
     },
     {
       "id": 19,
       "type": "cheese",
       "name": "Havarti",
       "description": "",
-      "imageId": 3
+      "imageId": 6
     },
     {
       "id": 20,
@@ -359,207 +614,207 @@
       "type": "fruit",
       "name": "Red Apple",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 41,
       "type": "fruit",
       "name": "Green Apple",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 42,
       "type": "fruit",
       "name": "Red Grapes",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 43,
       "type": "fruit",
       "name": "Green Grapes",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 44,
       "type": "fruit",
       "name": "Pear",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 45,
       "type": "fruit",
       "name": "Orange",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 46,
       "type": "fruit",
       "name": "Blood Orange",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 47,
       "type": "fruit",
       "name": "Blueberries",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 48,
       "type": "fruit",
       "name": "Blackberries",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 49,
       "type": "fruit",
       "name": "Raspberries",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 50,
       "type": "fruit",
       "name": "Cherries",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 51,
       "type": "fruit",
       "name": "Strawberries",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 52,
       "type": "fruit",
       "name": "Watermelon",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 53,
       "type": "fruit",
       "name": "Kiwi",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 54,
       "type": "fruit",
       "name": "Dragonfruit",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 55,
       "type": "fruit",
       "name": "Passionfruit",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 56,
       "type": "fruit",
       "name": "Starfruit",
       "description": "",
-      "imageId": 4
+      "imageId": 24
     },
     {
       "id": 57,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Apricot Jam",
       "description": "",
       "imageId": 22
     },
     {
       "id": 58,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Strawberry Jam",
       "description": "",
       "imageId": 22
     },
     {
       "id": 59,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Cherry Preserves",
       "description": "",
       "imageId": 22
     },
     {
       "id": 60,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Fig Jam",
       "description": "",
       "imageId": 22
     },
     {
       "id": 61,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Spiced Pear Jam",
       "description": "",
       "imageId": 22
     },
     {
       "id": 62,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Red Pepper Jelly",
       "description": "",
       "imageId": 22
     },
     {
       "id": 63,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Jalapeno Jelly",
       "description": "",
       "imageId": 22
     },
     {
       "id": 64,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Honey",
       "description": "",
       "imageId": 22
     },
     {
       "id": 65,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Grainy Mustard",
       "description": "",
       "imageId": 22
     },
     {
       "id": 66,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Basil Pesto",
       "description": "",
       "imageId": 22
     },
     {
       "id": 67,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Garlic Hummus",
       "description": "",
       "imageId": 22
     },
     {
       "id": 68,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Oil + Balsamic",
       "description": "",
       "imageId": 22
     },
     {
       "id": 69,
-      "type": "jam",
+      "type": "jam+spread",
       "name": "Tzatziki",
       "description": "",
       "imageId": 22
@@ -731,26 +986,265 @@
   ],
   "boardLikes": [
     {
-      "userId": 1,
-      "boardId": 1,
-      "id": 1
+      "userId": 2,
+      "boardId": 4,
+      "id": 2
     },
     {
       "userId": 2,
       "boardId": 1,
-      "id": 2
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "boardId": 2,
+      "id": 4
     }
   ],
   "boardDislikes": [
     {
-      "userId": 1,
-      "boardId": 1,
+      "userId": 2,
+      "boardId": 3,
       "id": 1
     },
     {
       "userId": 2,
-      "boardId": 1,
+      "boardId": 2,
       "id": 2
+    }
+  ],
+  "ingredientLikes": [
+    {
+      "userId": 2,
+      "ingredientId": 24,
+      "id": 28
+    },
+    {
+      "userId": 2,
+      "ingredientId": 24,
+      "id": 29
+    },
+    {
+      "userId": 2,
+      "ingredientId": 24,
+      "id": 30
+    },
+    {
+      "userId": 2,
+      "ingredientId": 13,
+      "id": 43
+    },
+    {
+      "userId": 2,
+      "ingredientId": 46,
+      "id": 45
+    },
+    {
+      "userId": 2,
+      "ingredientId": 48,
+      "id": 46
+    },
+    {
+      "userId": 2,
+      "ingredientId": 65,
+      "id": 48
+    },
+    {
+      "userId": 2,
+      "ingredientId": 5,
+      "id": 50
+    },
+    {
+      "userId": 2,
+      "ingredientId": 7,
+      "id": 51
+    },
+    {
+      "userId": 2,
+      "ingredientId": 2,
+      "id": 61
+    },
+    {
+      "userId": 2,
+      "ingredientId": 21,
+      "id": 69
+    },
+    {
+      "userId": 2,
+      "ingredientId": 21,
+      "id": 70
+    },
+    {
+      "userId": 2,
+      "ingredientId": 31,
+      "id": 82
+    },
+    {
+      "userId": 2,
+      "ingredientId": 69,
+      "id": 98
+    },
+    {
+      "userId": 2,
+      "ingredientId": 69,
+      "id": 99
+    },
+    {
+      "userId": 2,
+      "ingredientId": 69,
+      "id": 100
+    },
+    {
+      "userId": 2,
+      "ingredientId": 69,
+      "id": 101
+    },
+    {
+      "userId": 2,
+      "ingredientId": 69,
+      "id": 102
+    },
+    {
+      "userId": 2,
+      "ingredientId": 69,
+      "id": 103
+    },
+    {
+      "userId": 2,
+      "ingredientId": 69,
+      "id": 104
+    },
+    {
+      "userId": 2,
+      "ingredientId": 12,
+      "id": 106
+    },
+    {
+      "userId": 2,
+      "ingredientId": 11,
+      "id": 107
+    },
+    {
+      "userId": 2,
+      "ingredientId": 23,
+      "id": 108
+    },
+    {
+      "userId": 2,
+      "ingredientId": 29,
+      "id": 109
+    },
+    {
+      "userId": 2,
+      "ingredientId": 37,
+      "id": 110
+    },
+    {
+      "userId": 2,
+      "ingredientId": 41,
+      "id": 111
+    },
+    {
+      "userId": 2,
+      "ingredientId": 54,
+      "id": 112
+    },
+    {
+      "userId": 2,
+      "ingredientId": 62,
+      "id": 113
+    },
+    {
+      "userId": 2,
+      "ingredientId": 63,
+      "id": 114
+    },
+    {
+      "userId": 2,
+      "ingredientId": 20,
+      "id": 116
+    },
+    {
+      "userId": 2,
+      "ingredientId": 56,
+      "id": 117
+    },
+    {
+      "userId": 2,
+      "ingredientId": 4,
+      "id": 118
+    },
+    {
+      "userId": 2,
+      "ingredientId": 6,
+      "id": 119
+    }
+  ],
+  "ingredientDislikes": [
+    {
+      "userId": 2,
+      "ingredientId": 25,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "ingredientId": 30,
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "ingredientId": 50,
+      "id": 38
+    },
+    {
+      "userId": 2,
+      "ingredientId": 50,
+      "id": 39
+    },
+    {
+      "userId": 2,
+      "ingredientId": 50,
+      "id": 40
+    },
+    {
+      "userId": 2,
+      "ingredientId": 14,
+      "id": 41
+    },
+    {
+      "userId": 2,
+      "ingredientId": 18,
+      "id": 42
+    },
+    {
+      "userId": 2,
+      "ingredientId": 15,
+      "id": 50
+    },
+    {
+      "userId": 2,
+      "ingredientId": 35,
+      "id": 51
+    },
+    {
+      "userId": 2,
+      "ingredientId": 44,
+      "id": 52
+    },
+    {
+      "userId": 2,
+      "ingredientId": 57,
+      "id": 53
+    },
+    {
+      "userId": 2,
+      "ingredientId": 2,
+      "id": 54
+    },
+    {
+      "userId": 2,
+      "ingredientId": 8,
+      "id": 55
     }
   ]
 }
